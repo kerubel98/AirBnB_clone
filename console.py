@@ -183,6 +183,25 @@ class HBNBCommand(cmd.Cmd):
             if line_list[0] == v.__class__.__name__:
                 key_list.append(v.__str__())
         print(key_list)
+    
+    def do_show(self, line):
+        """show class based on id <class_name>.show(<id>)"""
+
+        args = line.split('.')
+        mathod = args[1].split('(')
+        if len(args) and mathod[0] != show
+            print('** mathod show is not provided **')
+            return
+        elif len(args) == 0:
+            print('*** class name is missing **')
+            return
+        else:
+            _id = mathod[1].split(')')
+            key = args[0] + '.' + _id[0]
+            all_record = storage.all()
+            return (all_record[key]
+
+           
 
     def default(self, line):
         print('default({})'.format(line))

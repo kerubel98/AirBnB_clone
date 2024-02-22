@@ -1,9 +1,10 @@
 .footer {
     width: 100%;
     height: 60px;
-    position: absolute;
-    bottom: 0px;
+    position: relative;
+    bottom: 0;
     line-height: 60px;
     border-top: solid 1px #CCCCCC;
     text-align: center;
+    margin-top: 10px;
 }

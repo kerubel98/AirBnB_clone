@@ -98,18 +98,12 @@ h2 {
 }
 
 h3 {
-    margin-top: 12px;
-    margin-right: 10px;
-    margin-bottom: 0px;
-    margin-left: 10px;
+    margin: 6px 10px;
     font-weight: 600;
 }
 
 h4 {
-    margin-top: 6px;
-    margin-right: 10px;
-    margin-bottom: 6px;
-    margin-left: 10px;
+    margin: 6px 10px;
     font-weight: 400;
     font-size: 14px;
 }
